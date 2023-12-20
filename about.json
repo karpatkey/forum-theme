@@ -1,0 +1,27 @@
+{
+  "name": "karpatkey",
+  "component": false,
+  "about_url": "https://github.com/karpatkey/forum-theme",
+  "license_url": "https://github.com/karpatkey/forum-theme/blob/main/LICENSE",
+  "assets": {
+  },
+  "color_schemes": {
+    "New Color Scheme": {
+      "primary": "1A1A1A",
+      "secondary": "E3E3E3",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "E3E3E3",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "selected": "E3E3E3",
+      "hover": "f2f2f2",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
