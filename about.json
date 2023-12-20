@@ -8,10 +8,10 @@
   "color_schemes": {
     "kpk-light": {
       "primary": "1A1A1A",
-      "secondary": "E3E3E3",
+      "secondary": "eeeded",
       "tertiary": "0088cc",
       "quaternary": "1A1A1A",
-      "header_background": "E3E3E3",
+      "header_background": "eeeded",
       "header_primary": "1A1A1A",
       "highlight": "ffff4d",
       "selected": "E3E3E3",
