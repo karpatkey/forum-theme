@@ -3,8 +3,6 @@
   "component": false,
   "about_url": "https://github.com/karpatkey/forum-theme",
   "license_url": "https://github.com/karpatkey/forum-theme/blob/main/LICENSE",
-  "assets": {
-  },
   "color_schemes": {
     "kpk-light": {
       "primary": "1A1A1A",
@@ -23,8 +21,7 @@
   },
   "assets": {
     "black-logo": "assets/black-logo.png",
-    "white-logo": "assets/white-logo.png",
-
+    "white-logo": "assets/white-logo.png"
   },
   "modifiers": {
   },
