@@ -21,6 +21,11 @@
       "love": "fa6c8d"
     }
   },
+  "assets": {
+    "black-logo": "assets/black-logo.png",
+    "white-logo": "assets/white-logo.png",
+
+  },
   "modifiers": {
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
