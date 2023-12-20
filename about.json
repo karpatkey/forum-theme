@@ -6,16 +6,16 @@
   "assets": {
   },
   "color_schemes": {
-    "karpatkey_light": {
+    "kpk-light": {
       "primary": "1A1A1A",
       "secondary": "E3E3E3",
       "tertiary": "0088cc",
-      "quaternary": "e45735",
+      "quaternary": "1A1A1A",
       "header_background": "E3E3E3",
-      "header_primary": "333333",
+      "header_primary": "1A1A1A",
       "highlight": "ffff4d",
       "selected": "E3E3E3",
-      "hover": "f2f2f2",
+      "hover": "D9D9D9",
       "danger": "c80001",
       "success": "009900",
       "love": "fa6c8d"
