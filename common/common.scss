@@ -32,6 +32,7 @@ h3 {
   line-height: 18px;
 }
 
+// Sidebar Customization
 .sidebar-section-header-text {
   font-family: IBMPlexMono;
   font-size: 16px;
@@ -48,6 +49,10 @@ h3 {
   line-height: 18px;
 }
 
+fa d-icon d-icon-ellipsis-v svg-icon svg-string svg {
+  color: var(--primary) !important;
+}
+
 .sidebar-section-header-caret svg {
   color: var(--primary) !important;
 }
@@ -55,3 +60,5 @@ h3 {
 .sidebar-section-link-prefix.icon {
   color: var(--primary) !important;
 }
+
+// End Sidebar Customization
