@@ -1,0 +1,35 @@
+@font-face {
+  font-family: IBMPlexMono;
+  font-weight: 300;
+  src: url($IBMPlexMono-Light) format('opentype')
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  font-weight: 400;
+  src: url($IBMPlexMono-Regular) format('opentype')
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  font-weight: 700;
+  src: url($IBMPlexMono-Bold) format('opentype')
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 300;
+  src: url($IBMPlexSans-Light) format('opentype')
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 400;
+  src: url($Inter-Regular) format('opentype')
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: 700;
+  src: url($IBMPlexSans-Bold) format('opentype')
+}
