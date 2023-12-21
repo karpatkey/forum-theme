@@ -40,6 +40,18 @@ h3 {
   line-height: 18px;
 }
 
+.sidebar-section-link-content-text {
+  font-family: IBMPlexSans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.sidebar-section-header-caret {
+  color: var(--primary-900) !important;
+}
+
 .sidebar-section-link-prefix.icon {
   color: var(--primary-900) !important;
 }
