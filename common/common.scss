@@ -19,10 +19,6 @@ h1, h2, h3 {
   line-height: 18px;
 }
 
-.sidebar-section-link {
-  display: inline-flex;
-  width: 100%;
-  align-items: center;
+.sidebar-section-link-prefix.icon {
   color: var(--primary-900);
-  transition: background-color .25s;
 }
