@@ -59,7 +59,7 @@ h3 {
 
 .sidebar-section-header-wrapper {
   background: transparent;
-  
+
   &:focus,
   &:hover {
     background: var(--primary-low);
@@ -108,11 +108,11 @@ h3 {
   }
 }
 
-
 // End Sidebar Customization
 
 // Input Customization
-.select-kit {
+
+.select-kit-header {
   border-radius: 40px;
   border: 1px solid var(--primary);
   height: 30px;
