@@ -61,6 +61,10 @@ h3 {
   color: var(--primary) !important;
 }
 
+.sidebar-section-link-wrapper .sidebar-section-link.active {
+  background: var(--primary-medium) !important;
+}
+
 // End Sidebar Customization
 
 @keyframes background-fade-highlight {
