@@ -61,7 +61,7 @@ h3 {
   color: var(--primary) !important;
 }
 
-.sidebar-section-link-wrapper {
+.sidebar-section-link-wrapper, .sidebar-section-header-wrapper {
   :hover {
     border-radius: 40px;
   }
