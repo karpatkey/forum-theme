@@ -76,7 +76,7 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
 // End Sidebar Customization
 
 // Input Customization
-.select-kit.combo-box .select-kit-header {
+.btn .btn-icon-text .d-icon , .select-kit.combo-box .select-kit-header {
   border-radius: 40px;
   border: 1px solid var(--primary);
   height: 30px;
@@ -124,8 +124,6 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
     }
   }
 }
-
-
 
 @keyframes background-fade-highlight {
   0% {
