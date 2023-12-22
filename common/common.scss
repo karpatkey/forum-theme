@@ -70,7 +70,7 @@ h3 {
     .d-icon {
       color: var(--primary) !important;
     };
-    &:focus,
+=
     &:hover {
       background: var(--primary-low);
       border-radius: 40px;
@@ -83,7 +83,6 @@ h3 {
   .sidebar-section-link, .sidebar-section-link-button {
     color: var(--primary) !important;
 
-    &:focus,
     &:hover {
       background: var(--primary-low);
       border-radius: 40px;
