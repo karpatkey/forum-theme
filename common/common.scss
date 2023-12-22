@@ -73,7 +73,7 @@ h3 {
     }
   }
   .sidebar-section-link, .sidebar-section-link-button {
-    color: var(--primary);
+    color: var(--primary) !important;
 
     &:focus,
     &:hover {
