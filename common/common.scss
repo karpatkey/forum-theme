@@ -83,8 +83,20 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   padding: 10px 14px;
   align-items: center;
 }
+
 .select-kit-selected-name .selected-name .choice {
-  font-family: IBM Plex Mono;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.nav-pills>li a.active, .nav-pills>li button.active {
+  background-color: var(--primary-low-mid);
+  border-radius: 40px;
+  color: var(--primary);
+  font-family: IBMPlexMono;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
