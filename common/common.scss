@@ -62,7 +62,8 @@ h3 {
 }
 
 .sidebar-section-link-wrapper .sidebar-section-link.active {
-  background: var(--primary-low-mid) !important;
+  background: var(--selected) !important;
+  border-radius: 40px;
 }
 
 // End Sidebar Customization
