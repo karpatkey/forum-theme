@@ -125,9 +125,9 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   }
 }
 
-.btn-default .btn .btn-icon-text {
+#create-topic {
   border-radius: 40px;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--primary) !important;
   height: 30px;
   padding: 10px 14px;
   align-items: center;
