@@ -62,19 +62,19 @@ h3 {
   &:hover {
     background: var(--primary-low);
     border-radius: 40px;
-  };
+  }
 }
 
 .sidebar-section-link-wrapper {
   .sidebar-more-section-links-details-summary {
     .d-icon {
       color: var(--primary) !important;
-    };
-=
+    }
+
     &:hover {
       background: var(--primary-low);
       border-radius: 40px;
-    };
+    }
     &.active {
       background: var(--primary-low-mid) !important;
       border-radius: 40px;
@@ -86,7 +86,7 @@ h3 {
     &:hover {
       background: var(--primary-low);
       border-radius: 40px;
-    };
+    }
     &.active {
       background: var(--primary-low-mid) !important;
       border-radius: 40px;
