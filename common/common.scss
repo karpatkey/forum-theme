@@ -94,17 +94,33 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
 }
 
 .nav-pills>li a.active, .nav-pills>li button.active {
-  font-family: IBMPlexMono;
   background-color: var(--primary);
   border-radius: 40px;
   height: 30px;
   color: var(--secondary);
+  font-family: IBMPlexMono;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
   text-transform: capitalize;
 }
+
+.nav-pills>li>a {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.nav-pills>li :not(.active) {
+  :hover {
+    border-radius: 40px;
+  }
+}
+
 
 
 @keyframes background-fade-highlight {
