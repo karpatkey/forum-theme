@@ -57,17 +57,15 @@ h3 {
   color: var(--primary) !important;
 }
 
-
-
 .sidebar-section-link-wrapper {
   .sidebar-more-section-links-details-summary {
     .d-icon {
       color: var(--primary) !important;
-    }
-    :not(.active) {
-      &:hover {
-        border-radius: 40px;
-      }
+    };
+    &:focus,
+    &:hover {
+      background: var(--primary-low);
+      border-radius: 40px;
     };
     &.active {
       background: var(--primary-low-mid);
@@ -78,11 +76,9 @@ h3 {
     color: var(--primary);
 
     &:focus,
-    :not(.active) {
-      &:hover {
-        background: var(--primary-low);
-        border-radius: 40px;
-      }
+    &:hover {
+      background: var(--primary-low);
+      border-radius: 40px;
     };
     &.active {
       background: var(--primary-low-mid);
