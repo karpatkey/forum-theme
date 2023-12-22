@@ -163,6 +163,11 @@ h3 {
   font-weight: 700;
   line-height: 18px;
   text-transform: capitalize;
+
+  &:hover {
+    color: var(--primary);
+    background-color: transparent;
+  }
 }
 
 .admin-controls {
