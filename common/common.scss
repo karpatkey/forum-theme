@@ -68,8 +68,8 @@ h3 {
 }
 
 .sidebar-section-link-wrapper {
-  .sidebar-section-link {
-    .active {
+  &.sidebar-section-link {
+    &.active {
       background: var(--primary-low-mid) !important;
       border-radius: 40px;
       mix-blend-mode: darken;
@@ -95,7 +95,7 @@ h3 {
 }
 
 #navigation-bar {
-  .nav-pills {
+  &.nav-pills {
     > li {
       > a {
         font-family: IBMPlexMono;
@@ -106,7 +106,7 @@ h3 {
         text-transform: capitalize;
         color: var(--secondary);
 
-        .active {
+        &.active {
           background-color: var(--primary);
           border-radius: 40px;
           height: 30px;
