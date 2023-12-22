@@ -67,6 +67,10 @@ h3 {
   mix-blend-mode: darken;
 }
 
+.sidebar-section-link-wrapper:hover {
+  border-radius: 40px;
+}
+
 // End Sidebar Customization
 
 @keyframes background-fade-highlight {
