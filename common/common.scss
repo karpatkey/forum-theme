@@ -131,6 +131,13 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   height: 30px;
   padding: 10px 14px;
   align-items: center;
+  background-color: var(--secondary);
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
 }
 
 @keyframes background-fade-highlight {
