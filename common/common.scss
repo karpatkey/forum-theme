@@ -61,16 +61,32 @@ h3 {
   color: var(--primary) !important;
 }
 
-.sidebar-section-link-wrapper, .sidebar-section-header-wrapper {
-  :hover {
-    border-radius: 40px;
-  }
-}
+//.sidebar-section-link-wrapper, .sidebar-section-header-wrapper {
+//  :hover {
+//    border-radius: 40px;
+//  }
+//}
 
 .sidebar-section-link .active {
   background: var(--primary-low-mid) !important;
   border-radius: 40px;
   mix-blend-mode: darken;
+}
+
+.sidebar-section-link-wrapper {
+  .sidebar-section-link {
+    color: var(--primary);
+
+    &:focus,
+    &:hover {
+      background: var(--primary-low-mid);
+      border-radius: 40px;
+    }
+
+    &.active {
+      background: var(--primary-low-mid);
+    }
+  }
 }
 
 // End Sidebar Customization
