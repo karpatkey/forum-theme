@@ -156,6 +156,10 @@ h3 {
   text-transform: capitalize;
 }
 
+.admin-controls {
+  background-color: var(--secondary);
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
