@@ -90,7 +90,7 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .nav-pills>li a.active, .nav-pills>li button.active {
@@ -103,7 +103,7 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 @keyframes background-fade-highlight {
