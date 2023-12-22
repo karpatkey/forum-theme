@@ -93,37 +93,37 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   text-transform: capitalize;
 }
 
-//.nav-pills>li a.active, .nav-pills>li button.active {
-//  background-color: var(--primary);
-//  border-radius: 40px;
-//  height: 30px;
-//  color: var(--secondary);
-//  font-family: IBMPlexMono;
-//  font-size: 16px;
-//  font-style: normal;
-//  font-weight: 700;
-//  line-height: 18px;
-//  text-transform: capitalize;
-//}
-//
-//.nav-pills > li > a {
-//  font-family: IBMPlexMono;
-//  font-size: 16px;
-//  font-style: normal;
-//  font-weight: 700;
-//  line-height: 18px;
-//  text-transform: capitalize;
-//}
-//
-//.nav-pills {
-//  > li {
-//    > a {
-//      &:hover {
-//        border-radius: 40px;
-//      }
-//    }
-//  }
-//}
+#navigation-bar.nav-pills>li a.active, #navigation-bar.nav-pills>li button.active {
+  background-color: var(--primary);
+  border-radius: 40px;
+  height: 30px;
+  color: var(--secondary);
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+#navigation-bar.nav-pills > li > a {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+#navigation-bar.nav-pills {
+  > li {
+    > a {
+      &:hover {
+        border-radius: 40px;
+      }
+    }
+  }
+}
 
 #create-topic {
   border-radius: 40px;
