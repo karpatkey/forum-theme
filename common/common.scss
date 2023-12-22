@@ -66,7 +66,6 @@ h3 {
     }
     :not(.active) {
       &:hover {
-        background: var(--primary-low);
         border-radius: 40px;
       }
     };
