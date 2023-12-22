@@ -74,6 +74,10 @@ h3 {
       border-radius: 40px;
     }
   }
+  .sidebar-section-link--active {
+    background: var(--primary-low-mid);
+    border-radius: 40px;
+  }
   .sidebar-section-link, .sidebar-section-link-button {
     color: var(--primary) !important;
 
@@ -83,11 +87,6 @@ h3 {
       border-radius: 40px;
     };
     &.active {
-      background: var(--primary-low-mid);
-      border-radius: 40px;
-    }
-
-    .sidebar-section-link--active {
       background: var(--primary-low-mid);
       border-radius: 40px;
     }
