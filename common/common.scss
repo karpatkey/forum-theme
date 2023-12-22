@@ -49,7 +49,7 @@ h3 {
   line-height: 18px;
 
   &:focus,
-  &:hover {
+  &:hover:not(.active) {
     background: var(--primary-low);
     border-radius: 40px;
   };
@@ -80,7 +80,7 @@ h3 {
     .d-icon {
       color: var(--primary) !important;
     }
-    &:hover {
+    &:hover:not(.active) {
       background: var(--primary-low);
       border-radius: 40px;
     };
@@ -93,7 +93,7 @@ h3 {
     color: var(--primary);
 
     &:focus,
-    &:hover {
+    &:hover:not(.active) {
       background: var(--primary-low);
       border-radius: 40px;
     };
