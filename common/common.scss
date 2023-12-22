@@ -78,12 +78,9 @@ h3 {
     color: var(--primary);
 
     &:focus,
-    &:hover {
-      background: var(--primary-low-mid);
-      border-radius: 40px;
-    }
-
+    &:hover,
     &.active {
+      border-radius: 40px;
       background: var(--primary-low-mid);
     }
   }
