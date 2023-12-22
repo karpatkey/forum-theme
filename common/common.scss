@@ -67,14 +67,10 @@ h3 {
   }
 }
 
-.sidebar-section-link-wrapper {
-  &.sidebar-section-link {
-    &.active {
-      background: var(--primary-low-mid) !important;
-      border-radius: 40px;
-      mix-blend-mode: darken;
-    }
-  }
+.sidebar-section-link-wrapper .sidebar-section-link .active {
+  background: var(--primary-low-mid) !important;
+  border-radius: 40px;
+  mix-blend-mode: darken;
 }
 
 // End Sidebar Customization
@@ -94,30 +90,27 @@ h3 {
   text-transform: capitalize;
 }
 
-#navigation-bar {
-  &.nav-pills {
-    > li {
-      > a {
-        font-family: IBMPlexMono;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 18px;
-        text-transform: capitalize;
-        color: var(--secondary);
+.nav-pills:not(.user-nav) > li a.active {
+  background-color: var(--primary);
+  border-radius: 40px;
+  height: 30px;
+}
 
-        &.active {
-          background-color: var(--primary);
-          border-radius: 40px;
-          height: 30px;
+.nav-pills:not(.user-nav) > li a:hover {
+  border-radius: 40px;
+  height: 30px;
+}
 
-        }
-
-        &:hover {
-          border-radius: 40px;
-          height: 30px;
-        }
-      }
+#navigation-bar .nav-pills {
+  > li {
+    > a {
+      font-family: IBMPlexMono;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: capitalize;
+      color: var(--secondary);
     }
   }
 }
