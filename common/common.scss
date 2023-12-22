@@ -64,6 +64,7 @@ h3 {
 .sidebar-section-link-wrapper .sidebar-section-link.active {
   background: var(--selected) !important;
   border-radius: 40px;
+  mix-blend-mode: darken;
 }
 
 // End Sidebar Customization
