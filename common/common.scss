@@ -106,6 +106,18 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   text-transform: capitalize;
 }
 
+.nav-pills>li a.active, .nav-pills>li button {
+  color: var(--primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+  :hover {
+    border-radius: 40px;
+  }
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
