@@ -57,15 +57,7 @@ h3 {
   color: var(--primary) !important;
 }
 
-.sidebar-section-wrapper {
-  .sidebar-section-header-wrapper {
-    &:focus,
-    &:hover {
-      background: var(--primary-low);
-      border-radius: 40px;
-    };
-  }
-}
+
 
 .sidebar-section-link-wrapper {
   .sidebar-more-section-links-details-summary {
