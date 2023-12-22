@@ -68,7 +68,7 @@ h3 {
 }
 
 .sidebar-section-link {
-  .active {
+  &.active {
     background: var(--primary-low-mid) !important;
     border-radius: 40px;
     mix-blend-mode: darken;
@@ -80,9 +80,11 @@ h3 {
     .d-icon {
       color: var(--primary) !important;
     }
-    &:hover:not(.active) {
-      background: var(--primary-low);
-      border-radius: 40px;
+    :not(.active) {
+      &:hover {
+        background: var(--primary-low);
+        border-radius: 40px;
+      }
     };
     &.active {
       background: var(--primary-low-mid);
@@ -93,9 +95,11 @@ h3 {
     color: var(--primary);
 
     &:focus,
-    &:hover:not(.active) {
-      background: var(--primary-low);
-      border-radius: 40px;
+    :not(.active) {
+      &:hover {
+        background: var(--primary-low);
+        border-radius: 40px;
+      }
     };
     &.active {
       background: var(--primary-low-mid);
