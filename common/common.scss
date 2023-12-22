@@ -61,12 +61,6 @@ h3 {
   color: var(--primary) !important;
 }
 
-//.sidebar-section-link-wrapper .sidebar-section-link.active {
-//  background: var(--primary-low-mid) !important;
-//  border-radius: 40px;
-//  mix-blend-mode: darken;
-//}
-
 .sidebar-section-link-wrapper {
   :hover {
     border-radius: 40px;
@@ -80,6 +74,21 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
 }
 
 // End Sidebar Customization
+
+// Input Customization
+.combobox {
+  border-radius: 60px;
+  border: 1px solid var(--primary);
+  height: 30px;
+  padding: 10px 14px;
+  align-items: center;
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
 
 @keyframes background-fade-highlight {
   0% {
