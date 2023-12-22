@@ -67,24 +67,25 @@ h3 {
   }
 }
 
-li.sidebar-section-link-wrapper .sidebar-section-link.active {
-  background: var(--primary-low-mid) !important;
-  border-radius: 40px;
-  mix-blend-mode: darken;
+.sidebar-section-link-wrapper {
+  .sidebar-section-link {
+    .active {
+      background: var(--primary-low-mid) !important;
+      border-radius: 40px;
+      mix-blend-mode: darken;
+    }
+  }
 }
 
 // End Sidebar Customization
 
 // Input Customization
-.select-kit.combo-box .select-kit-header {
+.select-kit {
   border-radius: 40px;
   border: 1px solid var(--primary);
   height: 30px;
   padding: 10px 14px;
   align-items: center;
-}
-
-.select-kit .select-kit-header .selected-name {
   font-family: IBMPlexMono;
   font-size: 16px;
   font-style: normal;
@@ -93,33 +94,29 @@ li.sidebar-section-link-wrapper .sidebar-section-link.active {
   text-transform: capitalize;
 }
 
-#navigation-bar.nav-pills>li a.active, #navigation-bar.nav-pills>li button.active {
-  background-color: var(--primary);
-  border-radius: 40px;
-  height: 30px;
-  color: var(--secondary);
-  font-family: IBMPlexMono;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  text-transform: capitalize;
-}
+#navigation-bar {
+  .nav-pills {
+    > li {
+      > a {
+        font-family: IBMPlexMono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: var(--secondary);
 
-#navigation-bar.nav-pills > li > a {
-  font-family: IBMPlexMono;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  text-transform: capitalize;
-}
+        .active {
+          background-color: var(--primary);
+          border-radius: 40px;
+          height: 30px;
 
-#navigation-bar.nav-pills {
-  > li {
-    > a {
-      &:hover {
-        border-radius: 40px;
+        }
+
+        &:hover {
+          border-radius: 40px;
+          height: 30px;
+        }
       }
     }
   }
