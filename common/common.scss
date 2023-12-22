@@ -57,7 +57,7 @@ h3 {
   color: var(--primary) !important;
 }
 
-.sidebar-section-link-wrapper {
+.sidebar-section-wrapper {
   .sidebar-section-header-wrapper {
     &:focus,
     &:hover {
@@ -65,6 +65,9 @@ h3 {
       border-radius: 40px;
     };
   }
+}
+
+.sidebar-section-link-wrapper {
   .sidebar-more-section-links-details-summary {
     .d-icon {
       color: var(--primary) !important;
