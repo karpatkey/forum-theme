@@ -67,8 +67,10 @@ h3 {
 //  mix-blend-mode: darken;
 //}
 
-.sidebar-section-link-wrapper .sidebar-section-link:hover {
-  border-radius: 40px;
+btn-flat sidebar-more-section-links-details-summary btn btn-icon-text {
+  :hover {
+    border-radius: 40px;
+  }
 }
 
 li.sidebar-section-link-wrapper .sidebar-section-link.active {
