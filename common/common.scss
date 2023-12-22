@@ -58,6 +58,8 @@ h3 {
 }
 
 .sidebar-section-header-wrapper {
+  background: transparent;
+  
   &:focus,
   &:hover {
     background: var(--primary-low);
@@ -66,10 +68,17 @@ h3 {
 }
 
 .sidebar-section-link-wrapper {
+  background: transparent;
+
   .sidebar-more-section-links-details-summary {
+    color: var(--primary) !important;
+    background: transparent;
+
     .d-icon {
       color: var(--primary) !important;
     }
+
+    &:focus,
     &:hover {
       background: var(--primary-low);
       border-radius: 40px;
@@ -81,7 +90,9 @@ h3 {
   }
   .sidebar-section-link, .sidebar-section-link-button {
     color: var(--primary) !important;
+    background: transparent;
 
+    &:focus,
     &:hover {
       background: var(--primary-low);
       border-radius: 40px;
