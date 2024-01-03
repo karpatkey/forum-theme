@@ -146,6 +146,7 @@ h3 {
       }
     }
   }
+
   li[data-category-id="3"] {
     span.sidebar-section-link-prefix.span > span {
       .prefix-span {
@@ -153,9 +154,12 @@ h3 {
       }
     }
   }
+
   li[data-category-id="4"] {
     span.sidebar-section-link-prefix.span > span {
+      .prefix-span {
         background: linear-gradient(90deg, #222 50%, #222 50%) !important;
+      }
     }
   }
 }
