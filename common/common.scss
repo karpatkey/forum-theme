@@ -68,6 +68,19 @@ h3 {
 }
 
 .sidebar-section-link-wrapper {
+  .sidebar-section-link {
+    color: var(--quartenary);
+  }
+
+  .sidebar-section-link-prefix {
+    &.icon,
+    &.span {
+      color: var(--quartenary);
+    }
+  }
+}
+
+.sidebar-section-link-wrapper {
   background: transparent;
 
   .sidebar-more-section-links-details-summary {
@@ -167,7 +180,7 @@ h3 {
   svg {
     color: var(--primary);
   }
-  
+
   &:hover {
     color: var(--primary);
     background-color: transparent;
