@@ -7,8 +7,8 @@
     "kpk-light": {
       "primary": "1A1A1A",
       "secondary": "EEEDED",
-      "tertiary": "808080",
-      "quaternary": "B6B6B6",
+      "tertiary": "1A1A1A",
+      "quaternary": "1A1A1A",
       "header_background": "EEEDED",
       "header_primary": "1A1A1A",
       "highlight": "080a09",
