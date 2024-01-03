@@ -140,24 +140,22 @@ h3 {
 
 #sidebar-section-content-categories {
   li[data-category-id="2"] {
-    span {
+    span.sidebar-section-link-prefix.span > span {
       .prefix-span {
         background: linear-gradient(90deg, #B6B6B6 50%, #B6B6B6 50%);
       }
     }
   }
   li[data-category-id="3"] {
-    span {
+    span.sidebar-section-link-prefix.span > span {
       .prefix-span {
         background: linear-gradient(90deg, #808080 50%, #808080 50%);
       }
     }
   }
   li[data-category-id="4"] {
-    span {
-      .prefix-span {
+    span.sidebar-section-link-prefix.span > span {
         background: linear-gradient(90deg, #222 50%, #222 50%);
-      }
     }
   }
 }
