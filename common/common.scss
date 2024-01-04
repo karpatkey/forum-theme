@@ -308,6 +308,18 @@ th[data-sort-order="posts"] > span {
   line-height: 21.011px;
 }
 
+.topic-statuses > svg {
+    color: var(--primary) !important;
+}
+
+.title .raw-link .raw-topic-link {
+  font-family: IBMPlexMono;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
