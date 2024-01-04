@@ -171,23 +171,21 @@ h3 {
   align-items: center;
 }
 
-.select-kit-selected-name {
-  div[data-value="4"] {
-    .badge-category-bg {
-      background-color: #B6B6B6 !important;
-    }
+.select-kit-selected-name[data-value="4"] {
+  > div.badge-category-bg {
+    background-color: #B6B6B6 !important;
   }
+}
 
-  div[data-value="2"] {
-    .badge-category-bg {
-      background-color: #808080 !important;
-    }
+.select-kit-selected-name[data-value="2"] {
+  > div.badge-category-bg {
+    background-color: #808080 !important;
   }
+}
 
-  div[data-value="3"] {
-    .badge-category-bg {
-      background-color: #222 !important;
-    }
+.select-kit-selected-name[data-value="3"] {
+  > div.badge-category-bg {
+    background-color: #222 !important;
   }
 }
 
