@@ -153,6 +153,7 @@ h3 {
 .badge-category,
 .select-kit-selected-name {
   > span {
+    color: var(--primary) !important;
     font-family: IBMPlexMono;
     font-size: 16px;
     font-style: normal;
