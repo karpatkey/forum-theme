@@ -162,20 +162,25 @@ h3 {
   text-transform: capitalize;
 }
 
-.nav-pills:not(.user-nav) > li a.active {
-  background-color: var(--primary);
-  border-radius: 40px;
+.nav-pills:not(.user-nav) > li {
   height: 30px;
-}
+  border-radius: 40px;
+  background-color: transparent;
 
-.nav-pills:not(.user-nav) > li a:hover {
-  border-radius: 40px;
-  height: 30px;
+  a.active {
+    background-color: var(--primary);
+    border-radius: 40px;
+    height: 30px;
+  }
+
+  a:hover {
+    border-radius: 40px;
+    height: 30px;
+  }
 }
 
 .nav-pills > li {
   height: 30px;
-  background-color: transparent;
   > a {
     font-family: IBMPlexMono;
     font-size: 16px;
@@ -194,46 +199,47 @@ h3 {
   }
 }
 
-#create-topic {
-  border-radius: 40px;
-  border: 1px solid var(--primary) !important;
-  height: 30px;
-  padding: 10px 14px;
-  align-items: center;
-  background-color: var(--secondary);
-  font-family: IBMPlexMono;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  text-transform: capitalize;
-
-  svg {
-    color: var(--primary);
-  }
-
-  &:hover {
-    color: var(--primary);
-    background-color: transparent;
+  #create-topic {
+    border-radius: 40px;
+    border: 1px solid var(--primary) !important;
+    height: 30px;
+    padding: 10px 14px;
+    align-items: center;
+    background-color: var(--secondary);
+    font-family: IBMPlexMono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: capitalize;
 
     svg {
       color: var(--primary);
     }
-  }
-}
 
-.admin-controls {
-  nav {
+    &:hover {
+      color: var(--primary);
+      background-color: transparent;
+
+      svg {
+        color: var(--primary);
+      }
+    }
+  }
+
+  .admin-controls {
+    nav {
+      background-color: var(--secondary);
+    }
     background-color: var(--secondary);
   }
-  background-color: var(--secondary);
-}
 
-@keyframes background-fade-highlight {
-  0% {
-    background-color: var(--highlight-low);
-  }
-  100% {
-    background-color: var(--secondary);
+  @keyframes background-fade-highlight {
+    0% {
+      background-color: var(--highlight-low);
+    }
+    100% {
+      background-color: var(--secondary);
+    }
   }
 }
