@@ -188,6 +188,14 @@ h3 {
 
     .active {
       color: var(--secondary);
+      background-color: var(--primary);
+      border-radius: 40px;
+      height: 30px;
+    }
+
+    a:hover {
+      border-radius: 40px;
+      height: 30px;
     }
 
     :not(.active) {
