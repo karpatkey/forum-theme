@@ -150,18 +150,24 @@ h3 {
 // End Sidebar Customization
 
 // Input Customization
+.badge-category,
+.select-kit-selected-name {
+  > span {
+    font-family: IBMPlexMono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+}
+
 .list-controls .combo-box .combo-box-header {
   border-radius: 40px;
   border: 1px solid var(--primary);
   height: 30px;
   padding: 10px 14px;
   align-items: center;
-  font-family: IBMPlexMono;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  text-transform: capitalize;
 }
 
 .nav-pills:not(.user-nav) > li {
