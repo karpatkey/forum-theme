@@ -171,6 +171,26 @@ h3 {
   align-items: center;
 }
 
+.select-kit-selected-name {
+  div[data-value="4"] {
+    .badge-category-bg {
+      background-color: #B6B6B6 !important;
+    }
+  }
+
+  div[data-value="2"] {
+    .badge-category-bg {
+      background-color: #808080 !important;
+    }
+  }
+
+  div[data-value="3"] {
+    .badge-category-bg {
+      background-color: #222 !important;
+    }
+  }
+}
+
 .nav-pills:not(.user-nav) > li {
   height: 30px;
   border-radius: 40px;
