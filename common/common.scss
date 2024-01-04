@@ -83,6 +83,7 @@ h3 {
       background: var(--primary-low);
       border-radius: 40px;
     }
+
     &.active {
       background: var(--primary-low-mid) !important;
       border-radius: 40px;
@@ -106,6 +107,7 @@ h3 {
       background: var(--primary-low);
       border-radius: 40px;
     }
+
     &.active {
       background: var(--primary-low-mid) !important;
       border-radius: 40px;
@@ -128,19 +130,19 @@ h3 {
 #sidebar-section-content-categories {
   li[data-category-id="4"] {
     span.sidebar-section-link-prefix.span > span {
-        background: linear-gradient(90deg, #B6B6B6 50%, #B6B6B6 50%) !important;
+      background: linear-gradient(90deg, #B6B6B6 50%, #B6B6B6 50%) !important;
     }
   }
 
   li[data-category-id="2"] {
     span.sidebar-section-link-prefix.span > span {
-        background: linear-gradient(90deg, #808080 50%, #808080 50%) !important;
+      background: linear-gradient(90deg, #808080 50%, #808080 50%) !important;
     }
   }
 
   li[data-category-id="3"] {
     span.sidebar-section-link-prefix.span > span {
-        background: linear-gradient(90deg, #222 50%, #222 50%) !important;
+      background: linear-gradient(90deg, #222 50%, #222 50%) !important;
     }
   }
 }
@@ -181,6 +183,7 @@ h3 {
 
 .nav-pills > li {
   height: 30px;
+
   > a {
     font-family: IBMPlexMono;
     font-size: 16px;
@@ -199,47 +202,49 @@ h3 {
   }
 }
 
-  #create-topic {
-    border-radius: 40px;
-    border: 1px solid var(--primary) !important;
-    height: 30px;
-    padding: 10px 14px;
-    align-items: center;
-    background-color: var(--secondary);
-    font-family: IBMPlexMono;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    text-transform: capitalize;
+#create-topic {
+  border-radius: 40px;
+  border: 1px solid var(--primary) !important;
+  height: 30px;
+  padding: 10px 14px;
+  align-items: center;
+  background-color: var(--secondary);
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+
+  svg {
+    color: var(--primary);
+  }
+
+  &:hover {
+    color: var(--primary);
+    background-color: transparent;
 
     svg {
       color: var(--primary);
     }
-
-    &:hover {
-      color: var(--primary);
-      background-color: transparent;
-
-      svg {
-        color: var(--primary);
-      }
-    }
   }
+}
 
-  .admin-controls {
-    nav {
-      background-color: var(--secondary);
-    }
+.admin-controls {
+  nav {
     background-color: var(--secondary);
   }
 
-  @keyframes background-fade-highlight {
-    0% {
-      background-color: var(--highlight-low);
-    }
-    100% {
-      background-color: var(--secondary);
-    }
+  background-color: var(--secondary);
+}
+
+
+@keyframes background-fade-highlight {
+  0% {
+    background-color: var(--highlight-low);
+  }
+  100% {
+    background-color: var(--secondary);
   }
 }
+
