@@ -325,6 +325,22 @@ a.title.raw-link.raw-topic-link {
   line-height: 20px;
 }
 
+.num.views,
+.num.posts,
+.num.activity {
+  color: var(--primary) !important;
+  text-align: center;
+  font-family: IBMPlexSans;
+  font-size: 15.008px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.011px;
+}
+
+.top-list-header > tr {
+  border-bottom: 1px solid var(--primary);
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
