@@ -299,6 +299,15 @@ th.category, th.topics {
   line-height: 21.011px;
 }
 
+td.topics {
+  color: var(--primary) !important;
+  font-family: IBMPlexSans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.136px;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
