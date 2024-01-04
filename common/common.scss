@@ -284,14 +284,6 @@ tr[data-topic-id="6"] > td.main-link  > div.link-bottom-line > a {
   background-color: var(--secondary);
 }
 
-.topic-list-data > span {
-  color: var(--primary) !important;
-  font-family: IBMPlexMono;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-}
 
 th[data-sort-order="default"] > span {
   color: var(--primary) !important;
@@ -300,6 +292,7 @@ th[data-sort-order="default"] > span {
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
+  margin-left: 10px;
 }
 
 th[data-sort-order="posters"] > span,
