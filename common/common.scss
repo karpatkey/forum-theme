@@ -341,6 +341,10 @@ a.title.raw-link.raw-topic-link {
   border-bottom: 1px solid var(--primary);
 }
 
+.active.chat-tabs-list__link {
+  color: #F7F6F6 !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
