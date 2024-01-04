@@ -284,6 +284,36 @@ tr[data-topic-id="6"] > td.main-link  > div.link-bottom-line > a {
   background-color: var(--secondary);
 }
 
+.topic-list-data > span {
+  color: var(--primary) !important;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+th[data-sort-order="default"] > span {
+  color: var(--primary) !important;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+th[data-sort-order="posters"] > span,
+th[data-sort-order="views"] > span,
+th[data-sort-order="activiy"] > span,
+th[data-sort-order="posts"] > span {
+  color: var(--primary) !important;
+  font-family: IBMPlexSans;
+  text-align: center;
+  font-size: 15.008px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.011px;
+}
 
 @keyframes background-fade-highlight {
   0% {
