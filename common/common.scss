@@ -173,18 +173,23 @@ h3 {
   height: 30px;
 }
 
-.nav-pills > li > a {
-  font-family: IBMPlexMono;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  text-transform: capitalize;
-  .active {
-    color: var(--secondary);
-  }
-  :not(.active) {
-    color: var(--primary);
+.nav-pills > li {
+  height: 30px;
+  > a {
+    font-family: IBMPlexMono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: capitalize;
+
+    .active {
+      color: var(--secondary);
+    }
+
+    :not(.active) {
+      color: var(--primary);
+    }
   }
 }
 
