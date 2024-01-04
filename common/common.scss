@@ -155,7 +155,7 @@ h3 {
   color: var(--primary) !important;
 }
 
-.nav-pills > li {
+.nav-pills:not(.user-nav):not(.action-list) > li {
   height: 30px;
   border-radius: 40px;
   background-color: transparent;
