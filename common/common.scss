@@ -286,7 +286,9 @@ a.title.raw-link.raw-topic-link {
 }
 
 .active.chat-tabs-list__link {
-  color: #F7F6F6 !important;
+  > span {
+    color: #F7F6F6 !important;
+  }
 }
 
 @keyframes background-fade-highlight {
