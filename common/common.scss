@@ -155,22 +155,22 @@ h3 {
   color: var(--primary) !important;
 }
 
-.nav-pills:not(.user-nav) > li {
-  height: 30px;
-  border-radius: 40px;
-  background-color: transparent;
-
-  a.active {
-    background-color: var(--primary);
-    border-radius: 40px;
-    height: 30px;
-  }
-
-  a:hover {
-    border-radius: 40px;
-    height: 30px;
-  }
-}
+//.nav-pills:not(.user-nav) > li {
+//  height: 30px;
+//  border-radius: 40px;
+//  background-color: transparent;
+//
+//  a.active {
+//    background-color: var(--primary);
+//    border-radius: 40px;
+//    height: 30px;
+//  }
+//
+//  a:hover {
+//    border-radius: 40px;
+//    height: 30px;
+//  }
+//}
 
 #navigation-bar.nav-pills > li {
   height: 30px;
