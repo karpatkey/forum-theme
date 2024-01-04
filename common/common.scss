@@ -150,7 +150,8 @@ h3 {
 // End Sidebar Customization
 
 // Input Customization
-.list-controls .combo-box .combo-box-header {
+.combo-box,
+.combo-box-header {
   border-radius: 40px;
   border: 1px solid var(--primary);
   height: 30px;
