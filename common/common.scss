@@ -313,6 +313,7 @@ a.topic-statuses > svg {
 }
 
 a.title.raw-link.raw-topic-link {
+  color: var(--primary) !important;
   font-family: IBMPlexMono;
   font-size: 22px;
   font-style: normal;
