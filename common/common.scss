@@ -179,11 +179,11 @@ div[data-value="2"] > span > span > span.badge-category-bg {
   background-color: #808080 !important;
 }
 
-div[data-value="3"] > span > span >  span {
-  .badge-category-bg {
+div[data-value="3"] > span > span  {
+  > span.badge-category-bg {
     background-color: #222 !important;
   }
-  .badge-category > svg {
+  > span.badge-category > svg {
     color: #222 !important;
   }
 }
