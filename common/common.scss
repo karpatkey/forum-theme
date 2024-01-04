@@ -68,19 +68,6 @@ h3 {
 }
 
 .sidebar-section-link-wrapper {
-  .sidebar-section-link {
-    color: var(--quartenary);
-  }
-
-  .sidebar-section-link-prefix {
-    &.icon,
-    &.span {
-      color: var(--quartenary);
-    }
-  }
-}
-
-.sidebar-section-link-wrapper {
   background: transparent;
 
   .sidebar-more-section-links-details-summary {
@@ -186,18 +173,14 @@ h3 {
   height: 30px;
 }
 
-#navigation-bar .nav-pills {
-  > li {
-    > a {
-      font-family: IBMPlexMono;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 18px;
-      text-transform: capitalize;
-      color: var(--secondary);
-    }
-  }
+.nav-pills > li > a {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: var(--secondary);
 }
 
 #create-topic {
