@@ -171,15 +171,15 @@ h3 {
   align-items: center;
 }
 
-.select-kit-header-wrapper > div[data-value="4"] > span.badge-category-bg {
+div[data-value="4"] > span > span > span.badge-category-bg {
   background-color: #B6B6B6 !important;
 }
 
-.select-kit-header-wrapper > div[data-value="2"] > span.badge-category-bg {
+div[data-value="2"] > span > span > span.badge-category-bg {
   background-color: #808080 !important;
 }
 
-.select-kit-header-wrapper > div[data-value="3"] > span.badge-category-bg {
+div[data-value="3"] > span > span >  span.badge-category-bg {
   background-color: #222 !important;
 }
 
