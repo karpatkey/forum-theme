@@ -308,8 +308,8 @@ th[data-sort-order="posts"] > span {
   line-height: 21.011px;
 }
 
-.topic-statuses > svg {
-    color: var(--primary) !important;
+a.topic-statuses > svg {
+  color: var(--primary) !important;
 }
 
 a.title.raw-link.raw-topic-link {
