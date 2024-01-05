@@ -308,6 +308,15 @@ td.topics {
   line-height: 24.136px;
 }
 
+div.latest-topic-list > div.table-heading {
+  color: var(--primary) !important;
+  font-family: IBMPlexSans;
+  font-size: 15.008px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.011px;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
