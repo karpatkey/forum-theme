@@ -322,6 +322,10 @@ div.latest-topic-list-item > div.topic-stats {
   justify-content: flex-end;
 }
 
+.topic-last-activity {
+  width: 50%;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
