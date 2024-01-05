@@ -343,6 +343,15 @@ div.latest-topic-list-item > div.topic-stats {
   color: var(--primary) !important;
 }
 
+.top-row > a {
+  color: var(--primary) !important;
+  font-family: IBMPlexMono;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
