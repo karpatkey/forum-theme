@@ -317,6 +317,11 @@ div.latest-topic-list > div.table-heading {
   line-height: 21.011px;
 }
 
+div.latest-topic-list-item > div.topic-stats {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
