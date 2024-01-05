@@ -339,6 +339,10 @@ div.latest-topic-list-item > div.topic-stats {
   line-height: 20px;
 }
 
+.badge-category > svg {
+  color: var(--primary) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
