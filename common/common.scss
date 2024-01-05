@@ -274,7 +274,7 @@ a.title.raw-link.raw-topic-link {
 .num.views,
 .num.posts,
 .num.activity,
-.topic-last-activity {
+.topic-last-activity > a > span {
   color: var(--primary) !important;
   text-align: center;
   font-family: IBMPlexSans;
