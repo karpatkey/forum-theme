@@ -268,12 +268,13 @@ a.title.raw-link.raw-topic-link {
   line-height: 20px;
 }
 
-.num.views > span,
-.num.posts > span,
-.num.activity > span,
+.num.views > button > span,
+.num.posts > button > span,
+.num.activity > button > span,
 .num.views,
 .num.posts,
-.num.activity {
+.num.activity,
+.topic-last-activity {
   color: var(--primary) !important;
   text-align: center;
   font-family: IBMPlexSans;
