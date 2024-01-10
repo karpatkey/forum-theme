@@ -385,7 +385,17 @@ button {
   }
 }
 
-
+// social icons
+.share-twitter {
+  .d-icon {
+    color: var(--primary-high) !important;
+  }
+}
+.share-facebook {
+  .d-icon {
+    color: var(--primary-high) !important;
+  }
+}
 
 @keyframes background-fade-highlight {
   0% {
