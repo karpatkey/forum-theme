@@ -430,6 +430,11 @@ li[data-name="Uncategorized"] {
   background-color: var(--primary) !important;
 }
 
+// disable text size
+.text-size {
+  display: none !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
