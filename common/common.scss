@@ -412,9 +412,9 @@ button {
   outline: 1px solid var(--primary-medium);
   outline-offset: 0;
   .in-focus {
-    border-color: var(--tertiary);
-    outline: 1px solid var(--tertiary);
-    outline-offset: 0;
+    border-color: var(--tertiary) !important;
+    outline: 1px solid var(--tertiary) !important;
+    outline-offset: 0 !important;
   }
 }
 
