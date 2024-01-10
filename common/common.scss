@@ -418,6 +418,13 @@ button {
   border: 1px solid var(--primary-medium) !important;
 }
 
+// uncategorized
+li[data-name="Uncategorized"] {
+  .badge-category-bg {
+    background-color: var(--secondary-low) !important;
+  }
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
@@ -426,4 +433,3 @@ button {
     background-color: var(--secondary);
   }
 }
-
