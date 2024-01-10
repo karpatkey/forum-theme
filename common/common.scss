@@ -363,10 +363,9 @@ button {
   &.like {
     // Like button with 0 likes
     &.d-hover {
-      background: var(--primary-low);
-
+      background: var(--primary-low) !important;
       .d-icon {
-        color: var(--primary);
+        color: var(--primary) !important;
       }
     }
   }
