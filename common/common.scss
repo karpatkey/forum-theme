@@ -407,11 +407,7 @@ button {
   border: 1px solid var(--primary-medium) !important;
 }
 
-.d-editor-textarea-wrapper {
-  border-color: var(--primary-medium);
-  outline: 1px solid var(--primary-medium);
-  outline-offset: 0;
-  .in-focus {
+.d-editor-textarea-wrapper.in-focus {
     border: 1px solid var(--tertiary) !important;
     border-color: var(--tertiary) !important;
     outline: 1px solid var(--tertiary) !important;
