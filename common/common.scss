@@ -385,15 +385,7 @@ button {
   }
 }
 
-// social icons
-svg {
-  &.d-icon-fab-twitter {
-    fill: var(--primary-high) !important;
-  }
-  &.d-icon-fab-facebook {
-    fill: var(--primary-high) !important;
-  }
-}
+
 
 @keyframes background-fade-highlight {
   0% {
