@@ -394,6 +394,9 @@ button {
 .share-facebook {
   .d-icon {
     color: var(--primary-high) !important;
+    :hover {
+      color: var(--primary-low) !important;
+    }
   }
 }
 
