@@ -397,6 +397,11 @@ button {
   }
 }
 
+// group member
+.group-box .group-membership .is-group-member  {
+    color: var(--primary) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
