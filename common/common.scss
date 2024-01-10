@@ -371,6 +371,20 @@ button {
   }
 }
 
+// email primary
+.email-second {
+  .primary {
+    color: var(--primary) !important;
+  }
+}
+
+// devices active
+.auth-token-second {
+  .active {
+    color: var(--primary) !important;
+  }
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
