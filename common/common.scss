@@ -386,16 +386,16 @@ button {
 }
 
 // social icons
-//.share-twitter {
-//  .d-icon {
-//    color: var(--primary-high) !important;
-//  }
-//}
-//.share-facebook {
-//  .d-icon {
-//    color: var(--primary-high) !important;
-//  }
-//}
+.share-twitter {
+  .d-icon {
+    color: transparent !important;
+  }
+}
+.share-facebook {
+  .d-icon {
+    color: transparent !important;
+  }
+}
 
 @keyframes background-fade-highlight {
   0% {
