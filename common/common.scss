@@ -407,10 +407,15 @@ button {
   border: 1px solid var(--primary-medium) !important;
 }
 
-.d-editor-textarea-wrapper.in-focus textarea {
-  border-color: var(--tertiary);
-  outline: 1px solid var(--tertiary);
+.d-editor-textarea-wrapper {
+  border-color: var(--primary-medium);
+  outline: 1px solid var(--primary-medium);
   outline-offset: 0;
+  .in-focus {
+    border-color: var(--tertiary);
+    outline: 1px solid var(--tertiary);
+    outline-offset: 0;
+  }
 }
 
 @keyframes background-fade-highlight {
