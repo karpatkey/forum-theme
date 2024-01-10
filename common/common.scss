@@ -425,6 +425,11 @@ li[data-name="Uncategorized"] {
   }
 }
 
+// button ok
+btn.ok {
+  background-color: var(--primary) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
