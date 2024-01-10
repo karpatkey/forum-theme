@@ -404,7 +404,13 @@ button {
 
 // about me bio
 .user-preferences .bio-composer {
-  border: 1px solid var(--primary) !important;
+  border: 1px solid var(--primary-medium) !important;
+}
+
+.d-editor-textarea-wrapper.in-focus textarea {
+  border-color: var(--tertiary);
+  outline: 1px solid var(--tertiary);
+  outline-offset: 0;
 }
 
 @keyframes background-fade-highlight {
