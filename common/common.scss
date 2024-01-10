@@ -402,6 +402,11 @@ button {
     color: var(--primary) !important;
 }
 
+// about me bio
+.user-preferences .bio-composer {
+  border: 1px solid var(--primary) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
