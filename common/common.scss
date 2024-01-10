@@ -352,6 +352,11 @@ div.latest-topic-list-item > div.topic-stats {
   line-height: var(--line-height-medium);
 }
 
+// remove animation when topic is loaded
+.highlighted {
+  animation: none !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
