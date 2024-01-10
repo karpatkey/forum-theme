@@ -357,6 +357,21 @@ div.latest-topic-list-item > div.topic-stats {
   animation: none !important;
 }
 
+
+// Likes
+button {
+  &.like {
+    // Like button with 0 likes
+    &.d-hover {
+      background: var(--primary-low);
+
+      .d-icon {
+        color: var(--primary);
+      }
+    }
+  }
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
