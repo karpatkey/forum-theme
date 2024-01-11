@@ -563,6 +563,13 @@ input[type="url"] {
   }
 }
 
+// input checkbox
+input[type="checkbox"] {
+  border: 1px solid var(--primary-medium) !important;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
