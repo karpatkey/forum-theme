@@ -440,6 +440,12 @@ p a {
   text-decoration: underline !important;
 }
 
+.disclaimer {
+  > a {
+    text-decoration: underline !important;
+  }
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
