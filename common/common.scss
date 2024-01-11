@@ -565,9 +565,12 @@ input[type="url"] {
 
 // input checkbox
 input[type="checkbox"] {
-  border: 1px solid var(--primary-medium) !important;
+  border: 2px solid var(--primary) !important;
   appearance: none;
   -webkit-appearance: none;
+  outline: none;
+  width: 1em;
+  height: 1em;
 }
 
 @keyframes background-fade-highlight {
