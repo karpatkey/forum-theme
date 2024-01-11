@@ -522,15 +522,22 @@ input[type="email"],
 input[type="number"],
 input[type="tel"],
 input[type="url"] {
-  border-left: none;
-  border-right: none;
-  border-top: none;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
   border-bottom: 1px solid var(--primary-medium) !important;
   font-family: IBMPlexSans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  background-color: transparent;
+  &:focus {
+    border-bottom: 1px solid var(--primary) !important;
+  }
+  &:hover {
+    border-bottom: 1px solid var(--primary) !important;
+  }
 }
 
 @keyframes background-fade-highlight {
