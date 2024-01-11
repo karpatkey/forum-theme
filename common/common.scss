@@ -522,6 +522,9 @@ input[type="email"],
 input[type="number"],
 input[type="tel"],
 input[type="url"] {
+  border-left: none;
+  border-right: none;
+  border-top: none;
   border-bottom: 1px solid var(--primary-medium) !important;
   font-family: IBMPlexSans;
   font-size: 16px;
