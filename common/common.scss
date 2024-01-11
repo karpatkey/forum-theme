@@ -515,6 +515,16 @@ input[type="date"] {
   line-height: 18px;
 }
 
+// input texts
+input[type="text"] {
+  border-bottom: 1px solid var(--primary-medium) !important;
+  font-family: IBMPlexSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
