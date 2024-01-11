@@ -505,11 +505,6 @@ summary,
   line-height: 18px;
 }
 
-input[type="checkbox"] {
-  border: 2px solid;
-  border-radius: 3px;
-}
-
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
