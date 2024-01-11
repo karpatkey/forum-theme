@@ -548,7 +548,7 @@ input[type="url"] {
     .directory-table__cell {
       &,
       &--user-field {
-        background-color: var(--primary-low-mid) !important;
+        background-color: var(--primary-low) !important;
       }
     }
   }
@@ -559,7 +559,7 @@ input[type="url"] {
   flex-direction: column;
 
   .me {
-    background-color: var(--primary-low-mid) !important;
+    background-color: var(--primary-low) !important;
   }
 }
 
