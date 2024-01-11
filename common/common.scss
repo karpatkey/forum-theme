@@ -493,6 +493,14 @@ a.btn.btn-default {
   line-height: 18px;
 }
 
+.control-label {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
