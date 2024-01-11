@@ -472,10 +472,11 @@ a.btn.btn-default {
 // dropdowns
 .select-kit {
   background-color: transparent;
-  > summary.select-kit-header {
-    border-radius: 60px;
-    border: 1px solid var(--primary) !important;
-  }
+}
+
+.select-kit-header {
+  border-radius: 60px;
+  border: 1px solid var(--primary) !important;
 }
 
 @keyframes background-fade-highlight {
