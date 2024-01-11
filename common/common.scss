@@ -460,12 +460,12 @@ button {
     &.btn-danger,
     &.btn.cancel,
     &.btn.ok,
-    &.btn-default{
+    &.btn-default:not(.btn-icon-text) {
       border-radius: 50px;
     }
 }
 
-a.btn.btn-default {
+a.btn.btn-default:not(.btn-icon-text) {
   border-radius: 50px;
 }
 
