@@ -506,7 +506,7 @@ summary,
 }
 
 input[type="checkbox"] {
-  outline: 1px solid var(--primary) !important;
+  border: 2px solid var(--primary) !important;
 }
 
 @keyframes background-fade-highlight {
