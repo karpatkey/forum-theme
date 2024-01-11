@@ -476,6 +476,11 @@ a.btn.btn-default {
   border: 1px solid var(--primary) !important;
 }
 
+.select-kit .select-kit-header:not(.btn) {
+  border-radius: 60px;
+  border: 1px solid var(--primary) !important;
+}
+
 .select-kit-header {
   border-radius: 60px;
   border: 1px solid var(--primary) !important;
