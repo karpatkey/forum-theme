@@ -469,6 +469,12 @@ a.btn.btn-default {
   border-radius: 50px;
 }
 
+// dropdowns
+.select-kit {
+  border-radius: 60px;
+  border: 1px solid var(--primary) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
