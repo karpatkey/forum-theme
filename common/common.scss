@@ -459,7 +459,8 @@ button {
     &.btn-primary,
     &.btn-danger,
     &.btn.cancel,
-    &.btn.ok {
+    &.btn.ok,
+    &.btn-default{
       border-radius: 50px;
     }
 }
