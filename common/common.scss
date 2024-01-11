@@ -454,6 +454,13 @@ p a {
   background-color: var(--primary-low-mid) !important;
 }
 
+// buttons
+button {
+    &.btn {
+      border-radius: 50px;
+    }
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
