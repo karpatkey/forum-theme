@@ -460,12 +460,12 @@ button {
     &.btn-danger,
     &.btn.cancel,
     &.btn.ok,
-    &.btn-default:not(.btn-icon-text) {
+    &.btn-default:not(.no-text) {
       border-radius: 50px;
     }
 }
 
-a.btn.btn-default:not(.btn-icon-text) {
+a.btn.btn-default:not(.no-text) {
   border-radius: 50px;
 }
 
@@ -480,7 +480,7 @@ a.btn.btn-default:not(.btn-icon-text) {
   border: 1px solid var(--primary-medium) !important;
 }
 
-.select-kit-header {
+.select-kit-header:not(.btn) {
   border-radius: 60px;
   border: 1px solid var(--primary-medium) !important;
 }
