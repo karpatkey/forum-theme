@@ -543,11 +543,15 @@ input[type="url"] {
 }
 
 // Me profile users
-.directory-table .me {
-  background-color: var(--primary-low-mid) !important;
-}
-.directory-table__row .me {
-  background-color: var(--primary-low-mid) !important;
+.directory-table {
+  .me {
+    .directory-table__cell {
+      &,
+      &--user-field {
+        background-color: var(--primary-low-mid) !important;
+      }
+    }
+  }
 }
 
 @keyframes background-fade-highlight {
