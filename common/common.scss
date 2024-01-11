@@ -435,6 +435,12 @@ li[data-name="Uncategorized"] {
   display: none !important;
 }
 
+// joined button channels
+.chat-channel-card__tag.-joined {
+  color: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
