@@ -460,15 +460,11 @@ button {
     &.btn-danger,
     &.btn.cancel,
     &.btn.ok,
-    &.btn-text,
     &.btn-default{
       border-radius: 50px;
     }
 }
-button.btn-text {
-  border: 1px solid var(--primary) !important;
-  border-radius: 50px;
-}
+
 a.btn.btn-default {
   border-radius: 50px;
 }
