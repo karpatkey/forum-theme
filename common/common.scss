@@ -516,7 +516,12 @@ input[type="date"] {
 }
 
 // input texts
-input[type="text"] {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="url"] {
   border-bottom: 1px solid var(--primary-medium) !important;
   font-family: IBMPlexSans;
   font-size: 16px;
