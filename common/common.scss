@@ -471,7 +471,8 @@ a.btn.btn-default {
 
 // dropdowns
 .select-kit {
-  > div.select-kit-header {
+  background-color: transparent;
+  > summary.select-kit-header {
     border-radius: 60px;
     border: 1px solid var(--primary) !important;
   }
