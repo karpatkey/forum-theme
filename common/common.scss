@@ -449,6 +449,11 @@ p a {
   }
 }
 
+// bookmark
+.tap-tile-grid .tap-tile.active {
+  background-color: var(--primary-low-mid) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
