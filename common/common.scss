@@ -537,6 +537,11 @@ input[type="url"] {
   }
 }
 
+// remove border date input
+.d-date-time-input {
+  border: none !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
