@@ -542,6 +542,11 @@ input[type="url"] {
   border: none !important;
 }
 
+// Me profile users
+.directory-table .me {
+  background-color: var(--primary-low-mid) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
