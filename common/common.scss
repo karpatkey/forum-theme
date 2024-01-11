@@ -353,6 +353,9 @@ div.latest-topic-list-item > div.topic-stats {
 }
 
 // remove animation when topic is loaded
+.topic-body {
+  animation: none !important;
+}
 .highlighted {
   animation: none !important;
 }
