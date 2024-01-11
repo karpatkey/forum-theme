@@ -473,17 +473,17 @@ a.btn.btn-default {
 .select-kit {
   background-color: transparent;
   border-radius: 60px;
-  border: 0px solid var(--primary-medium) !important;
+  border: 1px solid var(--primary-medium) !important;
 }
 
 .select-kit .select-kit-header:not(.btn) {
   border-radius: 60px;
-  border: 0px solid var(--primary-medium) !important;
+  border: 1px solid var(--primary-medium) !important;
 }
 
 .select-kit-header {
   border-radius: 60px;
-  border: 0px solid var(--primary-medium) !important;
+  border: 1px solid var(--primary-medium) !important;
 }
 
 @keyframes background-fade-highlight {
