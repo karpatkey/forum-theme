@@ -353,7 +353,7 @@ div.latest-topic-list-item > div.topic-stats {
 }
 
 // remove animation when topic is loaded
-.topic-body {
+.archetype-private_message.topic-body.highlighted .cooked {
   animation: none !important;
 }
 .highlighted {
