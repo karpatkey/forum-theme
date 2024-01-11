@@ -456,7 +456,10 @@ p a {
 
 // buttons
 button {
-    &.btn {
+    &.btn-primary,
+    &.btn-danger,
+    &.btn.cancel,
+    &.btn.ok {
       border-radius: 50px;
     }
 }
