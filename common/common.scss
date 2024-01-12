@@ -586,6 +586,11 @@ input[type="checkbox"]:checked {
   content:url($email);
 }
 
+// background color settings
+.settings .setting.overridden.string input[type=text], .settings .setting.overridden.string input[type=password], .settings .setting.overridden.string textarea {
+  background-color: var(--primary-low) !important;
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
