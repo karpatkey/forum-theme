@@ -586,6 +586,10 @@ input[type="checkbox"]:checked {
   content:url($email);
 }
 
+img .curve-image {
+  content:url($curve);
+}
+
 // background color settings
 .settings .setting.overridden.string input[type=text], .settings .setting.overridden.string input[type=password], .settings .setting.overridden.string textarea {
   background-color: var(--primary-low) !important;
