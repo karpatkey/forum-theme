@@ -586,8 +586,12 @@ input[type="checkbox"]:checked {
   content:url($email);
 }
 
-img .curve-image {
+.curve-image {
   content:url($curve);
+}
+
+.admin-controls .controls {
+  background: transparent !important;
 }
 
 // background color settings
