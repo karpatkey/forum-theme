@@ -586,6 +586,12 @@ input[type="checkbox"]:checked {
   content:url($email);
 }
 
+.activate-account {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .curve-image {
   background-image: url($curve);
 }
