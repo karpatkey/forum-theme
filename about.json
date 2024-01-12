@@ -20,6 +20,9 @@
     }
   },
   "assets": {
+    "checkmark": "assets/checkmark.svg",
+    "curve": "assets/curve.svg",
+    "email": "assets/email.svg",
     "black-logo": "assets/black-logo.png",
     "white-logo": "assets/white-logo.png",
     "IBMPlexMono-Bold": "assets/IBMPlexMono-Bold.ttf",

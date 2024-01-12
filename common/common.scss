@@ -581,6 +581,11 @@ input[type="checkbox"]:checked {
   background-color: var(--primary) !important;
 }
 
+// new images
+.col-image img[alt="envelope emoji"] {
+  content:url($checkmark);
+}
+
 @keyframes background-fade-highlight {
   0% {
     background-color: var(--highlight-low);
