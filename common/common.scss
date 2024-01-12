@@ -583,6 +583,10 @@ input[type="checkbox"]:checked {
   content:url($email);
 }
 
+img[alt="tada emoji"] {
+  content:url($checkmark);
+}
+
 .activate-account {
   justify-content: center;
   display: flex;
@@ -601,6 +605,13 @@ input[type="checkbox"]:checked {
 .settings .setting.overridden.string input[type=text], .settings .setting.overridden.string input[type=password], .settings .setting.overridden.string textarea {
   background-color: var(--primary-low) !important;
 }
+
+.activate-account .perform-activation {
+  border-top: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
 
 @keyframes background-fade-highlight {
   0% {
