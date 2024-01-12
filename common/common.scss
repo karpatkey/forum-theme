@@ -559,9 +559,6 @@ input[type="url"] {
 }
 
 .directory-table {
-  display: flex;
-  flex-direction: column;
-
   .me {
     background-color: var(--primary-low) !important;
   }
