@@ -583,7 +583,7 @@ input[type="checkbox"]:checked {
 
 // new images
 .col-image img[alt="envelope emoji"] {
-  content:url($checkmark);
+  content:url($email);
 }
 
 @keyframes background-fade-highlight {
