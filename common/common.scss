@@ -618,6 +618,11 @@ img[alt="tada emoji"] {
   border-top: none !important;
 }
 
+a.sign-up-button,
+a.login-button {
+  border-radius: 50px;
+}
+
 
 @keyframes background-fade-highlight {
   0% {
