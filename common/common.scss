@@ -623,6 +623,9 @@ a.login-button {
   border-radius: 50px;
 }
 
+.d-header-icons .badge-notification.with-icon.new-pms {
+  background-color: var(--primary-low) !important;
+}
 
 @keyframes background-fade-highlight {
   0% {
