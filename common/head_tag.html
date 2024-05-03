@@ -10,7 +10,9 @@
         var img = document.createElement('img');
         img.src = "https://uploads-ssl.webflow.com/639c46f0e63ad8a736f14b89/65a1c2302f6aa2d16be8e531_curve.svg";
         var d1 = document.querySelector('h1.activate-title')
-        d1.insertAdjacentHTML('afterend', img.outerHTML);
+        if(d1) {
+            d1.insertAdjacentHTML('afterend', img.outerHTML);
+        }
 
     });
 </script>
